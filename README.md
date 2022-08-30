@@ -12,9 +12,9 @@ Tecnologias utilizadas:
 - NodeJS
 - MongoDB (NoSQL DB)<br>
   Frameworks utilizadas:
-  -- Express (gerenciamento de rotas)
-  -- Mongoose (Comunicação com o DB)<br>
+  - Express (gerenciamento de rotas)
+  - Mongoose (Comunicação com o DB)<br>
   Plataforma de testes unitários:
-  --- Postman
+  - Postman
 
 Fase de desenvolvimento atual: 30/08 Criação das regras de negócio.
