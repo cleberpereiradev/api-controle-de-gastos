@@ -14,5 +14,7 @@ Tecnologias utilizadas:
   Frameworks utilizadas:
   - Express (gerenciamento de rotas)
   - Mongoose (Comunicação com o DB)
+  Plataforma de testes unitários:
+  - Postman
 
 Fase de desenvolvimento atual: 30/08 Criação das regras de negócio.
