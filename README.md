@@ -9,12 +9,12 @@ Objetivos do challenge:
     - Vamos adicionar segurança na API: com a implementação de um mecanismo de autenticação, além de também realizar o deploy dela em algum provedor Cloud, como o Heroku.
     
 Tecnologias utilizadas:
-- NodeJS
-- MongoDB (NoSQL DB)<br>
+    - NodeJS
+    - MongoDB (NoSQL DB)<br>
 Frameworks utilizadas:
-- Express (gerenciamento de rotas)
-- Mongoose (Comunicação com o DB)<br>
+    - Express (gerenciamento de rotas)
+    - Mongoose (Comunicação com o DB)<br>
 Plataforma de testes unitários:
-- Postman
+    - Postman
 
 Fase de desenvolvimento atual: 30/08 Criação das regras de negócio.
