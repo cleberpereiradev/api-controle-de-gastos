@@ -3,19 +3,17 @@ import despesas from "../models/Despesa.js";
 
 class DespesaController{
 
-    static listarDespesas = (req, res) => {
-        despesas.find((err) => {
-            if(err){
-                res.status(400).send({message: `${err.message}`})
-            } else {
-                res.status(200).json(despesas);
-            }
+    static listarDespesas = ((req,res) => {
+        despesas.find((err, despesas) =>{
+
+            res.status(200).json(despesas);
         })
-    }
+    })
+
     static listarDespesasPorId = (req, res) => {
         const id = req.params.id;
 
-        despesas.findById(id, (err) => {
+        despesas.findById(id, (err, despesas) => {
             if(err){
                 res.status(400).send({message: `${err.message} - Nenhum item correspondente ao ID inserido!`});
             } else {
